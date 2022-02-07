@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(79, 79, 79);
+}
+
+.btn {
+    background-color: rgb(57, 57, 57);
+    color: rgb(148, 148, 148);
+    font-size: 20px;
+    border-color: transparent;
+}
+
+.time-header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(128, 128, 128);
+    color: rgb(16, 0, 105);
+    border-color: transparent;
+}
+
+.container {
+    margin-bottom:70px;
+    margin-top: 70px;
+    width: 400px;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.input-div {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    background-color: rgb(55, 55, 110);
+}
+
+.header{
+    justify-content: center;
+    background-color: rgb(55, 55, 110);
+    text-align: center;
+    font-size: large;
+}
+
+.instruction-div{
+    text-align: center;
+    background-color: rgb(106, 106, 106);
+    font-size: 30px;
+}
+
+input{
+    max-width:99%;
+}
